@@ -156,8 +156,8 @@ export default function TodoList() {
         handleDeleteConfirm={handleDeleteConfirm}
         />
 
-        <div className={`bg-white w-[750px] rounded-md p-4 shadow-md h-[96vh] overflow-y-auto
-            ${RenderedTodos.length === 0 ? "h-[300px]" : "h-[96vh]"}
+        <div className={`bg-white w-[750px] rounded-md p-4 shadow-md min-h-[100px] max-h-[96vh] overflow-y-auto
+
             `}>
             <header className="flex items-center justify-between">
                 <h2 className="text-2xl font-bold text-gray-800 text-center">ToDo</h2>
