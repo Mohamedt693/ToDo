@@ -8,7 +8,6 @@ import CheckOutlinedIcon from "@mui/icons-material/CheckOutlined";
 import Grid from "@mui/material/Grid2";
 import "../../index.css";
 import { useState } from "react";
-// import { TodoContext } from "../../Contexts/TodoContext";
 import { useDispatch } from "react-redux";
 import {check} from "../../Features/todo/todoSlice"
 
@@ -20,9 +19,6 @@ export default function Todo({
   handleSnackClick,
 }) {
   const [expanded, setExpanded] = useState(false);
-
-  // const {dispatch} = useContext(TodoContext);
-  // const todos = useSelector((state) => state.todo.todos);
   const dispatch = useDispatch();
 
   function handleCheckClick() {
