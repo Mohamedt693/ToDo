@@ -9,7 +9,8 @@ import Grid from "@mui/material/Grid2";
 import "../../index.css";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import {check} from "../../Features/todo/todoSlice"
+import {check} from "../../Redux-state/features/todo/todoSlice";
+
 
 
 export default function Todo({

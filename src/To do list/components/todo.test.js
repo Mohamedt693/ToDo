@@ -1,7 +1,9 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import Todo from "./Todo";
 import { Provider } from "react-redux";
-import {store} from "../../store"
+import {store} from "../../Redux-state/store"
+
+
 
 
 const fakeTodo = {

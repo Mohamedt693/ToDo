@@ -16,7 +16,8 @@ import Updatedialog from "./components/dialogs/Updatedialog";
 import Deletedialog from "./components/dialogs/Deletedialog";
 // Redux Toolkit
 import { useSelector, useDispatch } from "react-redux";
-import { add, deleteTodo, get, update } from "../Features/todo/todoSlice"
+import { add, deleteTodo, get, update } from "../Redux-state/features/todo/todoSlice"
+
 
 export default function TodoList() {
     const todos = useSelector((state) => state.todo.todos);
