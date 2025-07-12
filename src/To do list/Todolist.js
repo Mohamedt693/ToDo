@@ -157,9 +157,8 @@ export default function TodoList() {
         handleDeleteConfirm={handleDeleteConfirm}
         />
 
-        <div className={`bg-white w-full h-full md:w-[750px] rounded-md p-4 shadow-md min-h-[100px] max-h-[96vh] overflow-y-auto
-
-            `}>
+        <div className={`bg-white w-full md:w-[750px] rounded-md p-4 shadow-md min-h-[100px] max-h-[96vh] overflow-y-auto overflow-x-auto`}>
+            
             <header className="flex items-center justify-between">
                 <h2 className="text-2xl font-bold text-gray-800 text-center">ToDo</h2>
                 <ToggleButtonGroup
