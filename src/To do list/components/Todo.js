@@ -46,8 +46,8 @@ export default function Todo({
         }}
       >
         <CardContent>
-          <Grid className="w-full flex items-center justify-between flex-row-reverse gap-12">
-            <Grid size={8}>
+          <Grid className="w-full flex flex-col-reverse md:flex-row-reverse items-center justify-between gap-4">
+            <Grid size={8} >
               <Typography
                 data-testid={`todo-title-${todo.id}`}
                 style={{ direction: "rtl" }}
@@ -73,7 +73,7 @@ export default function Todo({
                 {todo.details}
               </Typography>
             </Grid>
-            <Grid size={4}>
+            <Grid size={4} >
               <div className="w-full flex items-center justify-between gap-[5px]">
                 <IconButton
                   onClick={handledeleteClick}
