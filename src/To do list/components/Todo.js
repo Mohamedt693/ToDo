@@ -1,3 +1,5 @@
+import { useState } from "react";
+// Material ui
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import { Typography } from "@mui/material";
@@ -6,8 +8,9 @@ import DeleteOutlineOutlinedIcon from "@mui/icons-material/DeleteOutlineOutlined
 import ModeEditOutlineOutlinedIcon from "@mui/icons-material/ModeEditOutlineOutlined";
 import CheckOutlinedIcon from "@mui/icons-material/CheckOutlined";
 import Grid from "@mui/material/Grid2";
+// Css style
 import "../../index.css";
-import { useState } from "react";
+// Redux state management
 import { useDispatch } from "react-redux";
 import {check} from "../../Redux-state/features/todo/todoSlice";
 
@@ -43,7 +46,7 @@ export default function Todo({
         }}
       >
         <CardContent>
-          <Grid className="w-full flex items-center justify-between flex-row-reverse">
+          <Grid className="w-full flex items-center justify-between flex-row-reverse gap-12">
             <Grid size={8}>
               <Typography
                 data-testid={`todo-title-${todo.id}`}

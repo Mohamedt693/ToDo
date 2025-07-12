@@ -157,7 +157,7 @@ export default function TodoList() {
         handleDeleteConfirm={handleDeleteConfirm}
         />
 
-        <div className={`bg-white w-[750px] rounded-md p-4 shadow-md min-h-[100px] max-h-[96vh] overflow-y-auto
+        <div className={`bg-white w-full h-full md:w-[750px] rounded-md p-4 shadow-md min-h-[100px] max-h-[96vh] overflow-y-auto
 
             `}>
             <header className="flex items-center justify-between">

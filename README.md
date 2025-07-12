@@ -28,6 +28,7 @@ The app allows users to:
 - **Snackbar Notifications:** Instant feedback for user actions.
 - **Filter Todos:** View all, completed, or incomplete todos using toggle buttons.
 - **Persistence:** Todos are saved in `localStorage` so they remain after refreshing or closing the browser.
+- Responsive Design: Fully responsive UI for desktop and mobile devices.
 
 ---
 
@@ -44,7 +45,15 @@ The app allows users to:
 
 ## 🚀 Getting Started
 
-### 1. Install dependencies
+### 1. Clone the repository
 
-```bash
-npm install"# ToDo" 
+- git clone https://github.com/your-username/todo-app.git
+- cd todo-app
+
+### 2. Install dependencies
+
+- npm install
+
+### 3. Run the development server
+
+- npm start
