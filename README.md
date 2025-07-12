@@ -47,7 +47,7 @@ The app allows users to:
 
 ### 1. Clone the repository
 
-- git clone https://github.com/your-username/todo-app.git
+- git clone https://github.com/Mohamedt693/ToDo.git
 - cd todo-app
 
 ### 2. Install dependencies
